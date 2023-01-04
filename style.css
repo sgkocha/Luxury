@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background: #E2D3CE url("./images/bg_top_inner.png") no-repeat center;
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+}
+
+.header {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 22.56px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list-item a {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.call-btn {
+    display: block;
+    width: 180px;
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 24px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+
+.call-btn-wrap {
+    position: relative;
+}
+
+.call-btn-up {
+    position: absolute;
+    top: -11px;
+    left: 76px;
+    width: 22px;
+    height: 9.17px;
+    background: url("./images/up.png") no-repeat;
+}
+
+.call-btn-down {
+    position: absolute;
+    top: 56px;
+    left: 76px;
+    width: 22px;
+    height: 9.17px;
+    background: url("./images/down.png") no-repeat;
+}
+
+.luxury-title {
+    margin-top: 3.86px;
+    font-size: 60px;
+    line-height: 58px;
+    text-align: center;
+    color: #0C0B10;
+}
+
+.luxury-journey-img {
+    width: 48.63px;
+    height: 20.02px;
+    background: url("./images/journey-up.png") no-repeat;
+    margin-left: 47%;
+}
+
+.luxury-journey {
+    width: 1110px;
+    margin: 70px auto;
+}
+
+.luxury-journey-title {
+    width: 334px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 70%;
+    padding-top: 12.92px;
+    padding-bottom: 14.08px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-size: 25.7567px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #79655E;
+}
+
+.luxury-journey-box {
+    padding-top: 25.08px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.luxury-journey-item:nth-child(1) {
+    background: url("./images/vector.png") no-repeat;
+    padding-left: 20px;
+}
+
+.luxury-journey-item:nth-child(2) {
+    background: url("./images/union.png") no-repeat;
+    padding-left: 20px;
+}
+
+.luxury-journey-item:nth-child(3) {
+    background: url("./images/user.png") no-repeat;
+    padding-left: 20px;
+}
+
+.journey-item-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #79655E;
+}
+
+.journey-item-desc,
+.luxury-journey-check {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0C0B10;
+}
+
+.luxury-journey-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.luxury-journey-check span {
+    display: block;
+}
+
+.luxury-journey-check input {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
