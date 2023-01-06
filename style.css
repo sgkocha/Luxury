@@ -55,11 +55,13 @@ body {
     cursor: pointer;
 }
 
-.call-btn-wrap, .more-btn-wrap {
+.call-btn-wrap,
+.more-btn-wrap {
     position: relative;
 }
 
-.call-btn-up, .more-btn-up {
+.call-btn-up,
+.more-btn-up {
     position: absolute;
     top: -11px;
     left: 76px;
@@ -68,7 +70,8 @@ body {
     background: url("./images/up.png") no-repeat;
 }
 
-.call-btn-down, .more-btn-down {
+.call-btn-down,
+.more-btn-down {
     position: absolute;
     top: 56px;
     left: 76px;
@@ -175,7 +178,9 @@ body {
     width: 25px;
     height: 25px;
 }
-.luxury-packages, .luxury-packages-more{
+
+.luxury-packages,
+.luxury-packages-more {
     margin-top: 43px;
     display: flex;
     justify-content: space-around;
@@ -183,6 +188,7 @@ body {
     flex-wrap: wrap;
 
 }
+
 .luxury-packages-item {
     width: 361px;
     display: flex;
@@ -193,53 +199,66 @@ body {
     padding-right: 36px;
     color: #FFFFFF;
 }
-.luxury-packages-item:nth-child(1){
+
+.luxury-packages-item:nth-child(1) {
     background: url("./images/p1.png") no-repeat;
 }
-.luxury-packages-item:nth-child(2){
+
+.luxury-packages-item:nth-child(2) {
     background: url("./images/p2.png") no-repeat;
 }
-.luxury-packages-item:nth-child(3){
+
+.luxury-packages-item:nth-child(3) {
     background: url("./images/p3.png") no-repeat;
 }
-.luxury-packages-item:nth-child(4){
+
+.luxury-packages-item:nth-child(4) {
     background: url("./images/p4.png") no-repeat;
 }
-.luxury-packages-item:nth-child(5){
+
+.luxury-packages-item:nth-child(5) {
     background: url("./images/p5.png") no-repeat;
 }
-.luxury-packages-item:nth-child(6){
+
+.luxury-packages-item:nth-child(6) {
     background: url("./images/p6.png") no-repeat;
 }
-.luxury-packages-item:nth-child(7){
+
+.luxury-packages-item:nth-child(7) {
     background: url("./images/p7.png") no-repeat;
 }
-.luxury-packages-item:nth-child(8){
+
+.luxury-packages-item:nth-child(8) {
     background: url("./images/p8.png") no-repeat;
 }
-.luxury-packages-item:nth-child(9){
+
+.luxury-packages-item:nth-child(9) {
     background: url("./images/p9.png") no-repeat;
 }
-.packages-item-location{
+
+.packages-item-location {
     background: url("./images/location.png") no-repeat;
     padding-left: 15px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-  
+
 }
-.packages-item-title{
+
+.packages-item-title {
     font-size: 36px;
     line-height: 98.5%;
 }
-.packages-item-price{
+
+.packages-item-price {
     width: 66px;
     margin-top: 30.41px;
     font-size: 24px;
     line-height: 98.5%;
 }
-.packages-item-customize{
+
+.packages-item-customize {
     display: block;
     width: 128px;
     height: 40px;
@@ -258,17 +277,21 @@ body {
     text-decoration: none;
     color: #FFFFFF;
 }
-.item-rating{
+
+.item-rating {
     margin-top: 15px;
 }
-.f-box{
+
+.f-box {
     display: flex;
 }
-.more-wrap{
+
+.more-wrap {
     margin-top: 30px;
     position: relative;
 }
-.more-mask{
+
+.more-mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -276,23 +299,28 @@ body {
     width: 100%;
     background: linear-gradient(180deg, rgba(226, 211, 206, 0) 0%, rgba(226, 211, 206, 0.84) 52.77%, #E2D3CE 94.27%);
 }
-.luxury-packages-more{
+
+.luxury-packages-more {
     margin-top: 0;
-  
+
 }
-.more-btn-wrap{
+
+.more-btn-wrap {
     position: absolute;
     top: 40%;
     left: 38%;
 }
-.more-btn-up{
+
+.more-btn-up {
     left: 48%;
 }
-.more-btn-down{
-  top: 100%;  
-  left: 48%;
+
+.more-btn-down {
+    top: 100%;
+    left: 48%;
 }
-.more-btn{
+
+.more-btn {
     display: block;
     width: 330px;
     background-color: #FFFFFF;
@@ -308,6 +336,126 @@ body {
     cursor: pointer;
 
 }
-.more-btn-up{
+
+.more-btn-up {
     background: url("./images/up.png");
+}
+
+.luxury-inspiration {
+    width: 1110px;
+    margin: 166px auto;
+    background: url("./images/inspiration.png") no-repeat;
+    padding-top: 94px;
+    padding-left: 185px;
+    padding-bottom: 116.24px;
+    padding-right: 191px;
+}
+
+.luxury-inspiration-title {
+    width: 520px;
+    font-size: 60px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.luxury-inspiration-subtitle {
+    margin-top: 9px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    color: #FFFFFF
+}
+
+.luxury-inspiration-form {
+    margin-top: 35px;
+    position: relative;
+}
+
+.luxury-inspiration-form input {
+    width: 486px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    color: #0C0B10;
+}
+
+.luxury-inspiration-form input::placeholder {
+    color: #0C0B10;
+}
+
+.luxury-inspiration-form button {
+    width: 330px;
+    padding-top: 16.5px;
+    padding-bottom: 12.5px;
+    padding-left: 108px;
+    padding-right: 108px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 306px;
+}
+
+.footer {
+    background: url("./images/bg_footer.png") no-repeat;
+    padding-left: 299px;
+    padding-right: 366px;
+    padding-bottom: 34px;
+    text-align: center;
+    height: 550px;
+}
+
+.footer-logo {
+    width: 215px;
+    margin: 0 auto;
+    margin-bottom: 80.07px;
+}
+
+.footer .nav-list {
+    justify-content: space-around;
+}
+
+.footer .call-btn-wrap {
+    width: 156px;
+    margin: 70px auto;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-rights {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.footer-links, .footer-links a  {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.footer-links a {
+    text-decoration: none;
 }
